@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "Figtree";
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #F4D04E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Figtree";
+}
+
+#card{
+    width: 384px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    border: 1px solid #111111;
+    box-shadow: 8px 8px 0px 0px;
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#card img{
+    border-radius: 10px;
+    height: 200px;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+#content .box{
+    background-color: #F4D04E;
+    border-radius: 4px;
+    width: 82px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px;
+    gap: 8px;
+    color: #111111;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 150%;
+}
+
+#content p{
+    color: #111111;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500px;
+    line-height: 150%;
+}
+
+.heading {
+    color: #111111;
+    align-self: stretch;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;   
+}
+
+#content .text {
+    align-self: stretch;
+    color: #6B6B6B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+#author{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#author img{
+    height: 32px;
+    width: 32px;
+}
+
+#author p{
+    color: #111111;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 150%;
+}
+
+#content h1:hover{
+    color: #F4D04E;
+    font-weight: 800;
+}
+
+
+@media screen and (max-width: 376px){
+    body{
+        padding: 156px 24px 155px 24px;
+    }
+    #card{
+        width: 327px;
+    }
+
+    #card img{
+        height: 200px;
+    }
+
+    #content .box{
+        width: 73px;
+        height: 26px;
+        font-size: 12px;
+    }
+
+    #content p{
+        font-size: 12px;
+    }
+
+    #content .heading{
+        font-size: 20px;
+    }
+
+    #author img{
+        height: 32px;
+        width: 32px;
+    }
+}
+
+
