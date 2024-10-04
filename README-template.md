@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Repo Link](https://github.com/PranavReddy2703/blog-preview-card.git)
-- Live Site URL: [Website Link](https://your-live-site-url.com)
+- Live Site URL: [Website Link](https://pranavreddy2703.github.io/blog-preview-card/)
 
 ## My process
 
